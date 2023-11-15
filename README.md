@@ -1,4 +1,12 @@
 # eda-s-portfolio![report-page1](https://github.com/edriska/eda-s-portfolio/assets/103993701/f2ded5a8-6f0b-4010-b3f7-6b00aa208995)
+In that business case; the challenge was handling a dataset comprised entirely of free text, I employed an Azure AI solution, specifically the Azure Cognitive Sentiment Analysis feature. This tool allowed me to determine sentiment scores, distinguishing between positive and negative comments.
+
+To delve deeper into customer feedback on hotels, I focused on discerning impressions related to food and cleaning. I curated a keyword list and systematically applied it to the comments, counting the frequency of specific terms. I then crafted a DAX query to quantify these keyword mentions.
+
+Subsequently, I organized the insights into two distinct calculated tables—one for food-related comments and another for cleaning. This facilitated a detailed analysis of sentiment trends across different years. The dataset was sourced from booking.com, accessed through Azure Blob.
+
+This approach not only streamlined the handling of unstructured data but also provided valuable insights into customer sentiments. Combining sentiment analysis with keyword frequency assessments enabled the creation of meaningful tables, offering a comprehensive exploration of customer complaints related to food and cleaning over various years. Utilizing Azure AI tools enhanced the efficiency of the analysis, making it a robust and insightful process.
+
 ![hotel-names-by-food-9](https://github.com/edriska/eda-s-portfolio/assets/103993701/28efd120-6b94-4365-9361-89a88af77435)
 ![hote-lnames-by-cleaning-8](https://github.com/edriska/eda-s-portfolio/assets/103993701/4b0b0157-9d21-4015-b539-34cfb859685e)
 ![goodfood5](https://github.com/edriska/eda-s-portfolio/assets/103993701/4f0aa6a1-d469-4963-b4be-f6bb8e8eb065)
