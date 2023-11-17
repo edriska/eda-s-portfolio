@@ -15,6 +15,9 @@ This approach not only streamlined the handling of unstructured data but also pr
 ![complainfood4](https://github.com/edriska/eda-s-portfolio/assets/103993701/66521a9a-9106-488d-8fc3-6b23a62f1a48)
 ![complaincleanin6](https://github.com/edriska/eda-s-portfolio/assets/103993701/8eb2a5b4-bcab-4091-b311-ef5df5d0a71d)
 ![cleankeywords3](https://github.com/edriska/eda-s-portfolio/assets/103993701/e64a3df3-bfa7-4a23-8755-efc018b24279)
+
+The second business case is about a sailing race in that challenge I should create a dashboard and show each boat current location and show the boats current location and rank by the boat challenge was made a lambda architecture, used the Event hub, and streamed the analysis to the Power Bi dashboard and it should be figured out what should I do batch processing part I used in that part SQL database and make my analysis in there wrote a SQL codes in the Event hub calculated the distance and ranked the boats by distance also I want to rank by speeds and want to see rank differences between them. In that business case, you can see how did write SQL code and make a pipeline from scratch using Azure Stream Analytics Job.
+
 ![Vendee Globe Report (1)](https://github.com/edriska/eda-s-portfolio/assets/103993701/c2c9e05d-5649-40a3-97f6-e5b3888a46fd)
 ![Screenshot_20221221_150601](https://github.com/edriska/eda-s-portfolio/assets/103993701/b66c5f58-dd44-443f-8298-46033a3d5b42)
 ![Screenshot_20221221_150538](https://github.com/edriska/eda-s-portfolio/assets/103993701/ac5cd314-1a4d-4c3b-b434-ecec8d0eb374)
