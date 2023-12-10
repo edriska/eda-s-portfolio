@@ -1,27 +1,12 @@
 # Eda's portfolio's
 
 ## Projects:
-- [Simple time-series analysis for influenza data set](#simple-time-series) 
-- [Analyze booking.com reviews](#hotel-reviews) 
-- [Dashboard for Sailrace](#sail-race)
+
+- [Analyze booking.com reviews](#hotel-reviews) (keywords: Azure Cognitive Services, Azure Blob, Power Bi)
+- [Dashboard for Sailrace](#sail-race) (keywords: IOT Device, SQL Server, Azure Event Hub, Azure Analytics Jobs, Power Bi)
+- [Simple time-series analysis for influenza data set](#simple-time-series)  (keywords:Power Bi. time-series)
 
 
- ## Simple time series
- 
- ![Screenshot 2023-12-09 204323](https://github.com/edriska/eda-s-portfolio/assets/103993701/887fa7d2-4cb0-4228-8539-8ec453b17067)
-In that analysis ,I used the influenza data set to analyze the occurrence of influenza cases each year to drive vaccination policies and identify the trend. I wrote The Dax to create a new calculated column called "Outbreak Check" that uses the CONTAINSSTRING() function, which marks whether there was an influenza outbreak or not for each row of the data.
-The TITLE field contains information on the types of influenza events that occurred, and that is why I  checked if the field has the text "Outbreak".I only want to total the influenza cases when an outbreak occurs and use our newly created Outbreak Check field.
-I Plotted the total number of influenza cases over time by the kind of outbreak. care about when the case starts, not how long it lasts.
-Used a clustered column chart with the SDATE field on the x-axis (Ensure that you are using the date value and not the date hierarchy)
-Filtered the visual to focus on France over the last five years of available data. Note that France only has data until 2015.
-after all that analysis we can see Which type of variation we see in this influenza dataset, and when we have a spike in outbreak cases. In that case, we have
-Cyclical variation in February that variation means data will have a similar increase or decrease at the same point each year and tends to be over a shorter period
-![Screenshot 2023-12-09 204257](https://github.com/edriska/eda-s-portfolio/assets/103993701/e964d7fd-e70e-4e48-9474-c4b88fefbf87)
-In that case I  analyzed the variance of birth rates in the countries we operate in to drive policy changes. Work through the dataset provided to see when we expect to insure the most births.
-I Plotted the total number of births over time using the Month Year field.
-By default, Power BI will visualize this using the built-in Date Hierarchy; I changed this to the Date Value instead.
-Filtered the page to only show births in France in the last ten years of available data and found which month had the highest birth rate.
-![Screenshot 2023-12-09 191849](https://github.com/edriska/eda-s-portfolio/assets/103993701/67ac7d25-402d-4a6e-86c8-2189c0189400)
 
 ## Hotel reviews
 
@@ -53,3 +38,21 @@ The second business case is about a sailing race in that challenge I should crea
 ![Screenshot_20221221_150510](https://github.com/edriska/eda-s-portfolio/assets/103993701/2a6142b7-ab53-4ca1-97f0-33edac3ba339)
 ![Screenshot_20221221_150421](https://github.com/edriska/eda-s-portfolio/assets/103993701/8762f49e-f1b5-49f9-9da0-7fb13d1de006)
 ![Screenshot_20221124_232211](https://github.com/edriska/eda-s-portfolio/assets/103993701/6cd9a125-378b-4730-bd5e-1f9d2a347d7d)
+
+
+ ## Simple time series
+ 
+ ![Screenshot 2023-12-09 204323](https://github.com/edriska/eda-s-portfolio/assets/103993701/887fa7d2-4cb0-4228-8539-8ec453b17067)
+In that analysis ,I used the influenza data set to analyze the occurrence of influenza cases each year to drive vaccination policies and identify the trend. I wrote The Dax to create a new calculated column called "Outbreak Check" that uses the CONTAINSSTRING() function, which marks whether there was an influenza outbreak or not for each row of the data.
+The TITLE field contains information on the types of influenza events that occurred, and that is why I  checked if the field has the text "Outbreak".I only want to total the influenza cases when an outbreak occurs and use our newly created Outbreak Check field.
+I Plotted the total number of influenza cases over time by the kind of outbreak. care about when the case starts, not how long it lasts.
+Used a clustered column chart with the SDATE field on the x-axis (Ensure that you are using the date value and not the date hierarchy)
+Filtered the visual to focus on France over the last five years of available data. Note that France only has data until 2015.
+after all that analysis we can see Which type of variation we see in this influenza dataset, and when we have a spike in outbreak cases. In that case, we have
+Cyclical variation in February that variation means data will have a similar increase or decrease at the same point each year and tends to be over a shorter period
+![Screenshot 2023-12-09 204257](https://github.com/edriska/eda-s-portfolio/assets/103993701/e964d7fd-e70e-4e48-9474-c4b88fefbf87)
+In that case I  analyzed the variance of birth rates in the countries we operate in to drive policy changes. Work through the dataset provided to see when we expect to insure the most births.
+I Plotted the total number of births over time using the Month Year field.
+By default, Power BI will visualize this using the built-in Date Hierarchy; I changed this to the Date Value instead.
+Filtered the page to only show births in France in the last ten years of available data and found which month had the highest birth rate.
+![Screenshot 2023-12-09 191849](https://github.com/edriska/eda-s-portfolio/assets/103993701/67ac7d25-402d-4a6e-86c8-2189c0189400)
