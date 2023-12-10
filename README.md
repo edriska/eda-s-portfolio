@@ -1,7 +1,4 @@
-In that case I  analyzed the variance of birth rates in the countries we operate in to drive policy changes. Work through the dataset provided to see when we expect to insure the most births.
-I Plotted the total number of births over time using the Month Year field.
-By default, Power BI will visualize this using the built-in Date Hierarchy; I changed this to the Date Value instead.
-Filtered the page to only show births in France in the last ten years of available data and found which month had the highest birth rate. .![Screenshot 2023-12-09 204323](https://github.com/edriska/eda-s-portfolio/assets/103993701/887fa7d2-4cb0-4228-8539-8ec453b17067)
+ .![Screenshot 2023-12-09 204323](https://github.com/edriska/eda-s-portfolio/assets/103993701/887fa7d2-4cb0-4228-8539-8ec453b17067)
 the second analysis uses the influenza data set to analyze the occurrence of influenza cases each year to drive vaccination policies and identify the trend. I wrote The Dax to create a new calculated column called "Outbreak Check" that uses the CONTAINSSTRING() function, which marks whether there was an influenza outbreak or not for each row of the data.
 The TITLE field contains information on the types of influenza events that occurred, and that is why I  checked if the field has the text "Outbreak".I only want to total the influenza cases when an outbreak occurs and use our newly created Outbreak Check field.
 I Plotted the total number of influenza cases over time by the kind of outbreak. care about when the case starts, not how long it lasts.
@@ -10,6 +7,10 @@ Filtered the visual to focus on France over the last five years of available dat
 after all that analysis we can see Which type of variation we see in this influenza dataset, and when we have a spike in outbreak cases. In that case, we have
 Cyclical variation in February that variation means data will have a similar increase or decrease at the same point each year and tends to be over a shorter period
 ![Screenshot 2023-12-09 204257](https://github.com/edriska/eda-s-portfolio/assets/103993701/e964d7fd-e70e-4e48-9474-c4b88fefbf87)
+In that case I  analyzed the variance of birth rates in the countries we operate in to drive policy changes. Work through the dataset provided to see when we expect to insure the most births.
+I Plotted the total number of births over time using the Month Year field.
+By default, Power BI will visualize this using the built-in Date Hierarchy; I changed this to the Date Value instead.
+Filtered the page to only show births in France in the last ten years of available data and found which month had the highest birth rate.
 ![Screenshot 2023-12-09 191849](https://github.com/edriska/eda-s-portfolio/assets/103993701/67ac7d25-402d-4a6e-86c8-2189c0189400)
 
 # eda-s-portfolio![report-page1](https://github.com/edriska/eda-s-portfolio/assets/103993701/f2ded5a8-6f0b-4010-b3f7-6b00aa208995)
