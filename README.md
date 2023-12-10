@@ -10,7 +10,7 @@
 
 ## Hotel reviews
 
-[report-page1](https://github.com/edriska/eda-s-portfolio/assets/103993701/f2ded5a8-6f0b-4010-b3f7-6b00aa208995)
+![report-page1](https://github.com/edriska/eda-s-portfolio/assets/103993701/f2ded5a8-6f0b-4010-b3f7-6b00aa208995)
 In that business case; the challenge was handling a dataset comprised entirely of free text, I employed an Azure AI solution, specifically the Azure Cognitive Sentiment Analysis feature. This tool allowed me to determine sentiment scores, distinguishing between positive and negative comments.
 
 To delve deeper into customer feedback on hotels, I focused on discerning impressions related to food and cleaning. I curated a keyword list and systematically applied it to the comments, counting the frequency of specific terms. I then crafted a DAX query to quantify these keyword mentions.
