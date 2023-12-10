@@ -1,5 +1,5 @@
  .![Screenshot 2023-12-09 204323](https://github.com/edriska/eda-s-portfolio/assets/103993701/887fa7d2-4cb0-4228-8539-8ec453b17067)
-the second analysis uses the influenza data set to analyze the occurrence of influenza cases each year to drive vaccination policies and identify the trend. I wrote The Dax to create a new calculated column called "Outbreak Check" that uses the CONTAINSSTRING() function, which marks whether there was an influenza outbreak or not for each row of the data.
+In that analysis uses the influenza data set to analyze the occurrence of influenza cases each year to drive vaccination policies and identify the trend. I wrote The Dax to create a new calculated column called "Outbreak Check" that uses the CONTAINSSTRING() function, which marks whether there was an influenza outbreak or not for each row of the data.
 The TITLE field contains information on the types of influenza events that occurred, and that is why I  checked if the field has the text "Outbreak".I only want to total the influenza cases when an outbreak occurs and use our newly created Outbreak Check field.
 I Plotted the total number of influenza cases over time by the kind of outbreak. care about when the case starts, not how long it lasts.
 Used a clustered column chart with the SDATE field on the x-axis (Ensure that you are using the date value and not the date hierarchy)
