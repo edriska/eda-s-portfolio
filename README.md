@@ -2,7 +2,7 @@
 
 ## Projects:
 
-- [Analyze booking.com reviews](#hotel-reviews) (keywords: Azure Cognitive Services, Azure Blob, Power Bi)
+- [Analyze booking.com reviews](#hotel-reviews) (keywords: AI, Azure Cognitive Services, Azure Blob, Power Bi)
 - [Dashboard for Sailrace](#sail-race) (keywords: IOT Device, SQL Server, Azure Event Hub, Azure Analytics Jobs, Power Bi)
 - [Simple time-series analysis for influenza data set](#simple-time-series)  (keywords:Power Bi. time-series)
 
